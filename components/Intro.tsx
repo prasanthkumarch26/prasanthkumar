@@ -18,9 +18,9 @@ const Intro = () => {
         {/* I create stuff sometimes. */}Sometimes I like to build stuff.
       </h2>
       <p className="text-lg md:text-2xl text-[#8892b0] max-w-screen-sm p-4 mb-10">
-        I'm a software engineer from Visakhapatnam, India, with a deep passion
+        I&apos;m a software engineer from Visakhapatnam, India, with a deep passion
         for building large-scale, high-impact products in the fields of Machine
-        Learning and Deep Learning. I'm particularly driven by the opportunity
+        Learning and Deep Learning. I&apos;m particularly driven by the opportunity
         to leverage these technologies to solve real-world, critical problems.
       </p>
       <a

@@ -15,7 +15,7 @@ const About = () => {
         <div className="w-full max-w-screen-lg flex-col p-6 text-xl flex md:flex-row items-center">
           <div className="items-center">
             <p className="">
-              I am an Electrical Engineering graduate from IIEST Shibpur, I'm
+              I am an Electrical Engineering graduate from IIEST Shibpur, I&apos;m
               driven to solve real-world problems using{" "}
               <span className="text-red-500 font-bold">
                 Machine Learning and Deep Learning
@@ -46,7 +46,7 @@ const About = () => {
             </div>
 
             <p className="mt-6">
-              Outside of work, I'm interested in following the developments of
+              Outside of work, I&apos;m interested in following the developments of
               science. My fascination extends to technology, where I enjoy deep
               dives into everything from the newest phones and laptops to
               intricate computer hardware and operating systems. I also enjoy
