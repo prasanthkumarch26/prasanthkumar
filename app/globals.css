@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+.font-roboto {
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.font-ntr {
+  font-family: var(--font-ntr), sans-serif;
+}
+
+.li-triangle {
+  position: relative;
+  padding-left: 1.25rem; /* space for triangle */
+  list-style: none;
+}
+
+.li-triangle::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6rem;
+  width: 0;
+  height: 0;
+  rotate: 90deg;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 10px solid #fb2c36; /* Tailwind gray-800 */
+}
+
+::selection {
+  background: #222222;
+  color: inherit;
+}
+/* 
+.box-shadow {
+  box-shadow: 0px 0px 2px 2px #ccd6f6;
+} */
+
+.stand-left,
+.stand-right,
+.base,
+.side-left,
+.side-right,
+.top {
+  position: absolute;
+  background: #ccd6f6;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+/* Stand lines - 45 degree lines */
+.stand-left {
+  width: 20px;
+  height: 2px;
+  bottom: 0;
+  left: 30px;
+  background: #fb2c36;
+  transform: rotate(-45deg);
+  animation: draw 0.5s forwards;
+}
+
+.stand-right {
+  width: 20px;
+  height: 2px;
+  bottom: 0;
+  left: 50px;
+  background: #fb2c36;
+  transform: rotate(45deg);
+  animation: draw 0.5s forwards;
+}
+
+/* Base line */
+.base {
+  width: 100px;
+  height: 2px;
+  bottom: 20px;
+  left: 0px;
+  animation: draw 0.5s 1s forwards;
+}
+
+/* Vertical sides */
+.side-left {
+  width: 2px;
+  height: 60px;
+  bottom: 20px;
+  left: 0px;
+  animation: draw 0.5s 1.5s forwards;
+}
+
+.side-right {
+  width: 2px;
+  height: 60px;
+  bottom: 20px;
+  left: 100px;
+  animation: draw 0.5s 1.5s forwards;
+}
+
+/* Top horizontal line */
+.top {
+  width: 102px;
+  height: 2px;
+  bottom: 80px;
+  left: 0px;
+  animation: draw 0.5s 2s forwards;
+}
+
+/* Animation Keyframes */
+@keyframes draw {
+  to {
+    opacity: 1;
+  }
+}
