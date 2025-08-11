@@ -110,3 +110,15 @@
     opacity: 1;
   }
 }
+
+
+.exp-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+@media (min-width: 1200px) {
+  .exp-container {
+    max-width: 600px;
+  }
+}

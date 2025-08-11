@@ -7,7 +7,7 @@ const experiences = [
     id: 1,
     company: "Grid India (ERLDC)",
     position: "Summer Internship",
-    duration: "2022 - Present",
+    duration: "June 2024 - July 2024",
     responsibilities: [
       "Developed and maintained React applications with TypeScript",
       "Implemented responsive designs using Tailwind CSS",
@@ -20,13 +20,14 @@ const experiences = [
     id: 2,
     company: "IIEST Shibpur",
     position: "Arduino Based Projects",
-    duration: "2020 - 2022",
+    duration: "2022 - 2023",
     responsibilities: [
-      "Built responsive websites using HTML, CSS, and JavaScript",
-      "Integrated third-party APIs and payment gateways",
-      "Worked closely with designers to implement mockups",
-      "Performed cross-browser testing and debugging",
-      "Participated in agile development processes",
+      "Object Detection: Developed accurate object detection system using IR sensor with Arduino",
+      "Power Factor Correction: Designed and implemented capacitor bank-based solution for automatic power factor correction.",
+      "Team Leadership: Led team of 6 to multiple project completions, fostering collaboration and problem-solving skills.",
+      "Mentorship: Guided team members to ensure timely completion and high-quality outcomes.",
+      "Technical Expertise: Built innovative hardware-software solutions.",
+      "Academic Excellence: Achieved A+ grade in both semesters for Arduino-based projects.",
     ],
   },
 ];
@@ -36,7 +37,7 @@ const RelExperience = () => {
   const selectedExperience = experiences.find((exp) => exp.id === selectedId);
 
   return (
-    <div className="text-[#8892b0]" id="exp">
+    <div className="text-[#8892b0] exp-container" id="exp">
       <div className="flex flex-col items-center justify-center mx-auto px-4 sm:px-6">
         <div className="flex items-center pt-16 sm:pt-20 w-full max-w-screen-sm">
           <div className="flex-grow border-t border-red-500" />
