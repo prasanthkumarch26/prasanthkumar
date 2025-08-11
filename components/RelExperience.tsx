@@ -22,8 +22,8 @@ const experiences = [
     position: "Arduino Based Projects",
     duration: "2022 - 2023",
     responsibilities: [
-      "Object Detection: Developed accurate object detection system using IR sensor with Arduino",
-      "Power Factor Correction: Designed and implemented capacitor bank-based solution for automatic power factor correction.",
+      "Object Counter: Developed accurate object detection and counting system using IR sensor with Arduino",
+      "Power Factor Correction: Designed and implemented Arduino-based solution for automatic power factor correction.",
       "Team Leadership: Led team of 6 to multiple project completions, fostering collaboration and problem-solving skills.",
       "Mentorship: Guided team members to ensure timely completion and high-quality outcomes.",
       "Technical Expertise: Built innovative hardware-software solutions.",
