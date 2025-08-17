@@ -13,7 +13,7 @@ const Projects = () => {
         "A mobile robot system created as a major project at IIEST Shibpur, utilizing OpenCV, A* algorithm, and Python to enable the robot to navigate complex environments and make informed decisions in real-time.",
       techStack: "Python, Open CV, A* algorthm, Raspberry pi",
       image: "/slam.png",
-      githubLink: "https://github.com/project-1",
+      githubLink: "https://github.com/prasanthkumarch26/SLAM-enabled-Autonomous-Mobile-Robot-System",
       liveLink: "https://drive.google.com/file/d/1FDlniOoypnIu1xfcej0JkzB4T7ukxrxd/view?usp=drive_link",
     },
     {
