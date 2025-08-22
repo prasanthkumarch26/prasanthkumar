@@ -18,10 +18,11 @@ const Intro = () => {
         {/* I create stuff sometimes. */}Sometimes I like to build stuff.
       </h2>
       <p className="text-lg md:text-2xl text-[#8892b0] max-w-screen-sm p-4 mb-10">
-        I&apos;m a software engineer, with a deep passion
-        for building large-scale, high-impact products in the fields of Machine
-        Learning and Deep Learning. I&apos;m particularly driven by the opportunity
-        to leverage these technologies to solve real-world problems.
+        I&apos;m an aspiring software engineer with a deep passion for science
+        and technology. I&apos;m driven to build innovative projects that use Machine
+        Learning and Deep Learning to solve real-world problems. I'm eager to
+        bring my skills and curiosity to a team that is pushing the boundaries
+        of what's possible.
       </p>
       <a
         className="border-2 px-6 py-4 rounded-lg flex flex-row gap-2 text-2xl cursor-pointer items-center transition-transform duration-300 hover:-translate-y-2"
