@@ -22,7 +22,8 @@ const Projects = () => {
       id: 2,
       title: "Audex - Audio Transcription Telegram Bot",
       description:
-        "Designed and developed a Telegram bot that transcribes voice messages into text, providing a discreet and accessible way for users to consume audio content—ideal for use in public or noisy environments. Built using the Telegram Bot API (telebot), speech_recognition for transcription, and pyttsx3 for optional text-to-speech output. Notably, a similar feature was later introduced by Meta in WhatsApp, reflecting growing demand and validating the real-world relevance of the solution.",
+        // "Designed and developed a Telegram bot that transcribes voice messages into text, providing a discreet and accessible way for users to consume audio content—ideal for use in public or noisy environments. Built using the Telegram Bot API (telebot), speech_recognition for transcription, and pyttsx3 for optional text-to-speech output. Notably, a similar feature was later introduced by Meta in WhatsApp, reflecting growing demand and validating the real-world relevance of the solution.",
+        "Developed a Telegram bot that transcribes voice messages using speech_recognition and offers optional text-to-speech with pyttsx3—providing a discreet way to consume audio content, especially in public. A similar feature was later adopted by WhatsApp, highlighting its relevance.",
       techStack: "Python, Telegram Bot API(telebot), NLP",
       image: "/audex.png",
       githubLink: "https://github.com/project-1",
