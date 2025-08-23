@@ -13,15 +13,17 @@ const Projects = () => {
         "A mobile robot system created as a major project at IIEST Shibpur, utilizing OpenCV, A* algorithm, and Python to enable the robot to navigate complex environments and make informed decisions in real-time.",
       techStack: "Python, Open CV, A* algorthm, Raspberry pi",
       image: "/slam.png",
-      githubLink: "https://github.com/prasanthkumarch26/SLAM-enabled-Autonomous-Mobile-Robot-System",
-      liveLink: "https://drive.google.com/file/d/1FDlniOoypnIu1xfcej0JkzB4T7ukxrxd/view?usp=drive_link",
+      githubLink:
+        "https://github.com/prasanthkumarch26/SLAM-enabled-Autonomous-Mobile-Robot-System",
+      liveLink:
+        "https://drive.google.com/file/d/1FDlniOoypnIu1xfcej0JkzB4T7ukxrxd/view?usp=drive_link",
     },
     {
       id: 2,
       title: "Audex - Audio Transcription Telegram Bot",
       description:
-        "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
-      techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
+        "Designed and developed a Telegram bot that transcribes voice messages into text, providing a discreet and accessible way for users to consume audio content—ideal for use in public or noisy environments. Built using the Telegram Bot API (telebot), speech_recognition for transcription, and pyttsx3 for optional text-to-speech output. Notably, a similar feature was later introduced by Meta in WhatsApp, reflecting growing demand and validating the real-world relevance of the solution.",
+      techStack: "Python, Telegram Bot API(telebot), NLP",
       image: "/audex.png",
       githubLink: "https://github.com/project-1",
       liveLink: "",
@@ -40,7 +42,7 @@ const Projects = () => {
       id: 4,
       title: "Prasanth Kumar - Portfolio Website",
       description:
-        "An AI chatbot integrated with a hospital's system to provide instant medical assistance.",
+        "The current portfolio you are viewing. A minimalist portfolio designed with a focus on responsive user experience, developed from scratch using Next.js and TailwindCSS.",
       techStack: "Next.js, React, TailwindCSS, Lucide Icons",
       image: "/portfolio.png",
       githubLink: "https://github.com/prasanthkumarch26/prasanthkumar",
