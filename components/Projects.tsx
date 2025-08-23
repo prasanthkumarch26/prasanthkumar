@@ -18,7 +18,7 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Audex - Telgram bot for Audio Transcription",
+      title: "Audex - Audio Transcription Telegram Bot",
       description:
         "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
       techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
