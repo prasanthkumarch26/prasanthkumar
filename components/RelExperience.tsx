@@ -5,19 +5,6 @@ import React, { useState } from "react";
 const experiences = [
   {
     id: 1,
-    company: "Grid India (ERLDC)",
-    position: "Summer Internship",
-    duration: "June 2024 - July 2024",
-    responsibilities: [
-      "Developed and maintained React applications with TypeScript",
-      "Implemented responsive designs using Tailwind CSS",
-      "Collaborated with UX/UI designers to create intuitive user interfaces",
-      "Optimized application performance resulting in 40% faster load times",
-      "Mentored junior developers and conducted code reviews",
-    ],
-  },
-  {
-    id: 2,
     company: "IIEST Shibpur",
     position: "Arduino Based Projects",
     duration: "2022 - 2023",
@@ -30,6 +17,15 @@ const experiences = [
       "Academic Excellence: Achieved A+ grade in both semesters for Arduino-based projects.",
     ],
   },
+  // {
+  //   id: 2,
+  //   company: "Grid India (ERLDC)",
+  //   position: "Summer Internship",
+  //   duration: "June 2024 - July 2024",
+  //   responsibilities: [
+      
+  //   ],
+  // },
 ];
 
 const RelExperience = () => {
