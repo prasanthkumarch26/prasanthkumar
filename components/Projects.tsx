@@ -18,26 +18,6 @@ const Projects = () => {
     },
     {
       id: 2,
-      title: "Lung Cancer pre-diagnosis",
-      description:
-        "An AI chatbot integrated with a hospital's system to provide instant medical assistance.",
-      techStack: "React, Node.js, TensorFlow",
-      image: "",
-      githubLink: "https://github.com/project-2",
-      liveLink: "",
-    },
-    {
-      id: 3,
-      title: "Lung Cancer Diagnosis",
-      description:
-        "A secure and transparent voting platform leveraging blockchain technology.",
-      techStack: "Solidity, Ethereum, React",
-      image: "",
-      githubLink: "https://github.com/project-3",
-      liveLink: "",
-    },
-    {
-      id: 4,
       title: "Audex - Telgram bot for Audio Transcription",
       description:
         "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
@@ -47,7 +27,7 @@ const Projects = () => {
       liveLink: "",
     },
     {
-      id: 5,
+      id: 3,
       title: "Friday - Command-Line Voice Assistant",
       description:
         "An AI chatbot integrated with a hospital's system to provide instant medical assistance.",
@@ -55,6 +35,16 @@ const Projects = () => {
       image: "",
       githubLink: "https://github.com/project-2",
       liveLink: "",
+    },
+    {
+      id: 4,
+      title: "Prasanth Kumar - Portfolio Website",
+      description:
+        "An AI chatbot integrated with a hospital's system to provide instant medical assistance.",
+      techStack: "Next.js, React, TailwindCSS, Lucide Icons",
+      image: "",
+      githubLink: "https://github.com/prasanthkumarch26/prasanthkumar",
+      liveLink: "prasanthkumar.vercel.app",
     },
     // {
     //   id: 6,
