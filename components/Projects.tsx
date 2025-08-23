@@ -44,7 +44,7 @@ const Projects = () => {
       techStack: "Next.js, React, TailwindCSS, Lucide Icons",
       image: "",
       githubLink: "https://github.com/prasanthkumarch26/prasanthkumar",
-      liveLink: "prasanthkumar.vercel.app",
+      liveLink: "https://prasanthkumar.vercel.app/",
     },
     // {
     //   id: 6,
