@@ -22,7 +22,7 @@ const Projects = () => {
       description:
         "An application created for Toronto District School Board, with a Flask back-end and a Vue front-end.",
       techStack: "Python (Flask), Vue.js, Bootstrap, SQL",
-      image: "",
+      image: "/audex.png",
       githubLink: "https://github.com/project-1",
       liveLink: "",
     },
@@ -42,7 +42,7 @@ const Projects = () => {
       description:
         "An AI chatbot integrated with a hospital's system to provide instant medical assistance.",
       techStack: "Next.js, React, TailwindCSS, Lucide Icons",
-      image: "",
+      image: "/portfolio.png",
       githubLink: "https://github.com/prasanthkumarch26/prasanthkumar",
       liveLink: "https://prasanthkumar.vercel.app/",
     },
