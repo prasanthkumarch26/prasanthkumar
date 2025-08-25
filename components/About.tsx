@@ -56,7 +56,7 @@ const About = () => {
           </div>
           <div className="p-4 hidden md:flex items-center">
             <Image
-              src="/prasanth.jpg"
+              src="/prasanthkumar.jpg"
               alt="Prasanth Kumar"
               width={800}
               height={400}
