@@ -12,7 +12,7 @@ const About = () => {
           </h1>
           <div className="flex-grow border-t border-red-500"></div>
         </div>
-        <div className="w-full max-w-screen-lg flex-col p-6 text-xl flex md:flex-row items-center">
+        <div className="w-full max-w-screen-lg flex-col p-6 text-xl flex md:flex-row items-center gap-[40px]">
           <div className="items-center">
             <p className="">
               I am an Electrical Engineering graduate from IIEST Shibpur, I&apos;m
