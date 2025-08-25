@@ -23,7 +23,7 @@ const Intro = () => {
         Learning and Deep Learning to solve real-world problems.
       </p>
       <a
-        className="border-2 px-6 py-4 rounded-lg flex flex-row gap-2 text-2xl cursor-pointer items-center transition-transform duration-300 hover:-translate-y-2"
+        className="border-2 px-6 py-4 rounded-lg flex flex-row gap-2 text-2xl cursor-pointer items-center transition-transform duration-300 hover:-translate-y-2 hover:bg-[#151515]"
         href="mailto:ch.prasanth2003@gmail.com"
       >
         <Mail className="text-red-500" /> Say hi!
