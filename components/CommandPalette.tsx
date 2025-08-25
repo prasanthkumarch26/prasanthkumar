@@ -27,7 +27,7 @@ const CommandPalette = () => {
 
   const handleSubmit = () => {
     console.log(query);
-    const url = `http://localhost:3000/${encodeURIComponent(query)}`
+    const url = `https://prasanthkumar.vercel.app/${encodeURIComponent(query)}`
     window.open(url, '_blank')
   };
 
