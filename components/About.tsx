@@ -58,8 +58,8 @@ const About = () => {
             <Image
               src="/prasanthkumar.jpg"
               alt="Prasanth Kumar"
-              width={800}
-              height={400}
+              width={1000}
+              height={1000}
               className="rounded-xl transition-transform duration-300 hover:-translate-y-2 shadow-gray-500 shadow-lg box-border"
             />
           </div>
