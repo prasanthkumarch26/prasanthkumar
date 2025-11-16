@@ -1,7 +1,6 @@
 "use client";
 
 import Carousel from "./Carousel";
-import FadeInDiv from "./animations/FadeInDiv";
 import Card from "./card";
 
 const Projects = () => {
@@ -81,20 +80,18 @@ const Projects = () => {
       </div>
 
       {/* Cards on desktop only for the remaining */}
-      <FadeInDiv>
-        <div className="hidden lg:flex flex-wrap gap-4 justify-center p-4 sm:p-6 max-w-screen-xl">
-          {projects.map((project) => (
-            <Card
-              key={project.id}
-              title={project.title}
-              description={project.description}
-              techStack={project.techStack}
-              githubLink={project.githubLink}
-              liveLink={project.liveLink}
-            />
-          ))}
-        </div>
-      </FadeInDiv>
+      <div className="hidden lg:flex flex-wrap gap-4 justify-center p-4 sm:p-6 max-w-screen-xl">
+        {projects.map((project) => (
+          <Card
+            key={project.id}
+            title={project.title}
+            description={project.description}
+            techStack={project.techStack}
+            githubLink={project.githubLink}
+            liveLink={project.liveLink}
+          />
+        ))}
+      </div>
 
       {/* All cards on mobile */}
       <div className="flex lg:hidden flex-wrap gap-4 justify-center p-4 sm:p-6">
