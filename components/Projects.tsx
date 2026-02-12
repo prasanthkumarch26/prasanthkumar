@@ -1,58 +1,35 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Carousel from "./Carousel";
 import Card from "./card";
 
+type Project = {
+  id: number;
+  title: string;
+  description: string;
+  techStack: string;
+  image: string;
+  githubLink: string;
+  liveLink: string;
+};
+
 const Projects = () => {
-  const projects = [
-    {
-      id: 1,
-      title:
-        "SLAM-enabled Autonomous Mobile Robot System with vision integrated",
-      description:
-        "A mobile robot system created as a major project at IIEST Shibpur, utilizing OpenCV, A* algorithm, and Python to enable the robot to navigate complex environments and make informed decisions in real-time.",
-      techStack: "Python, Open CV, A* algorthm, Raspberry pi",
-      image: "/slam.png",
-      githubLink:
-        "https://github.com/prasanthkumarch26/SLAM-enabled-Autonomous-Mobile-Robot-System",
-      liveLink:
-        "https://drive.google.com/file/d/1FDlniOoypnIu1xfcej0JkzB4T7ukxrxd/view?usp=drive_link",
-    },
-    {
-      id: 2,
-      title:
-        "Real-Time Hand Gesture Recognition (ISL)",
-      description:
-        "Built a real-time hand gesture recognition system for 35 Indian Sign Language gestures using live webcam input. Trained on 42,745 images and optimized the inference pipeline to achieve 25 FPS with sub-40 ms latency. Improved real-world accuracy from 45% to 80% by introducing hand segmentation and extensive data augmentation.",
-      techStack: "Python, Open CV, Tensorflow",
-      image: "",
-      githubLink:
-        "",
-      liveLink:
-        "",
-    },
-    {
-      id: 3,
-      title: "Audex - Audio Transcription Telegram Bot",
-      description:
-        // "Designed and developed a Telegram bot that transcribes voice messages into text, providing a discreet and accessible way for users to consume audio content—ideal for use in public or noisy environments. Built using the Telegram Bot API (telebot), speech_recognition for transcription, and pyttsx3 for optional text-to-speech output. Notably, a similar feature was later introduced by Meta in WhatsApp, reflecting growing demand and validating the real-world relevance of the solution.",
-        "Developed a Telegram bot that transcribes voice messages using speech_recognition and offers optional text-to-speech with pyttsx3—providing a discreet way to consume audio content, especially in public. A similar feature was later adopted by WhatsApp, highlighting its relevance.",
-      techStack: "Python, Telegram Bot API(telebot), NLP",
-      image: "/audex.png",
-      githubLink: "",
-      liveLink: "",
-    },
-    {
-      id: 4,
-      title: "Prasanth Kumar - Portfolio Website",
-      description:
-        "The current portfolio you are viewing. A minimalist portfolio designed with a focus on responsive user experience, developed from scratch using Next.js and TailwindCSS.",
-      techStack: "Next.js, React, TailwindCSS, Lucide Icons",
-      image: "/portfolio.png",
-      githubLink: "https://github.com/prasanthkumarch26/prasanthkumar",
-      liveLink: "https://prasanthkumar.vercel.app/",
-    },
-  ];
+  const [projects, setProjects] = useState<Project[]>([]);
+
+  useEffect(() => {
+    const fetchProjects = async () => {
+      try {
+        const res = await fetch("/data/projects.json");
+        const data: Project[] = await res.json();
+        setProjects(data);
+      } catch (error) {
+        console.error("Error loading projects:", error);
+      }
+    };
+
+    fetchProjects();
+  }, []);
 
   return (
     <div
@@ -70,7 +47,7 @@ const Projects = () => {
       {/* Carousel only on desktop */}
       <div className="w-full max-w-screen-lg mt-8 hidden lg:flex">
         <Carousel
-          projects={projects.slice(0, 4).map((p) => ({
+          projects={projects.map((p) => ({
             id: p.id,
             title: p.title,
             description: p.description,
@@ -82,22 +59,7 @@ const Projects = () => {
         />
       </div>
 
-      {/* Cards on desktop only for the remaining */}
-      <div className="hidden lg:flex flex-wrap gap-4 justify-center p-4 sm:p-6 max-w-screen-xl">
-        {projects.map((project) => (
-          <Card
-            key={project.id}
-            title={project.title}
-            description={project.description}
-            techStack={project.techStack}
-            githubLink={project.githubLink}
-            liveLink={project.liveLink}
-          />
-        ))}
-      </div>
-
-      {/* All cards on mobile */}
-      <div className="flex lg:hidden flex-wrap gap-4 justify-center p-4 sm:p-6">
+      <div className="flex flex-wrap gap-4 justify-center p-4 sm:p-6">
         {projects.map((project) => (
           <Card
             key={project.id}

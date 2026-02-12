@@ -17,15 +17,6 @@ const experiences = [
       "Academic Excellence: Achieved A+ grade in both semesters for Arduino-based projects.",
     ],
   },
-  // {
-  //   id: 2,
-  //   company: "Grid India (ERLDC)",
-  //   position: "Summer Internship",
-  //   duration: "June 2024 - July 2024",
-  //   responsibilities: [
-      
-  //   ],
-  // },
 ];
 
 const RelExperience = () => {
