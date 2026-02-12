@@ -20,17 +20,30 @@ const Projects = () => {
     },
     {
       id: 2,
+      title:
+        "Real-Time Hand Gesture Recognition (ISL)",
+      description:
+        "Built a real-time hand gesture recognition system for 35 Indian Sign Language gestures using live webcam input. Trained on 42,745 images and optimized the inference pipeline to achieve 25 FPS with sub-40 ms latency. Improved real-world accuracy from 45% to 80% by introducing hand segmentation and extensive data augmentation.",
+      techStack: "Python, Open CV, Tensorflow",
+      image: "",
+      githubLink:
+        "",
+      liveLink:
+        "",
+    },
+    {
+      id: 3,
       title: "Audex - Audio Transcription Telegram Bot",
       description:
         // "Designed and developed a Telegram bot that transcribes voice messages into text, providing a discreet and accessible way for users to consume audio content—ideal for use in public or noisy environments. Built using the Telegram Bot API (telebot), speech_recognition for transcription, and pyttsx3 for optional text-to-speech output. Notably, a similar feature was later introduced by Meta in WhatsApp, reflecting growing demand and validating the real-world relevance of the solution.",
         "Developed a Telegram bot that transcribes voice messages using speech_recognition and offers optional text-to-speech with pyttsx3—providing a discreet way to consume audio content, especially in public. A similar feature was later adopted by WhatsApp, highlighting its relevance.",
       techStack: "Python, Telegram Bot API(telebot), NLP",
       image: "/audex.png",
-      githubLink: "https://github.com/project-1",
+      githubLink: "",
       liveLink: "",
     },
     {
-      id: 3,
+      id: 4,
       title: "Prasanth Kumar - Portfolio Website",
       description:
         "The current portfolio you are viewing. A minimalist portfolio designed with a focus on responsive user experience, developed from scratch using Next.js and TailwindCSS.",
@@ -39,16 +52,6 @@ const Projects = () => {
       githubLink: "https://github.com/prasanthkumarch26/prasanthkumar",
       liveLink: "https://prasanthkumar.vercel.app/",
     },
-    // {
-    //   id: 6,
-    //   title: "Blockchain-based Voting System",
-    //   description:
-    //     "A secure and transparent voting platform leveraging blockchain technology.",
-    //   techStack: "Solidity, Ethereum, React",
-    //   image: "",
-    //   githubLink: "https://github.com/project-3",
-    //   liveLink: "",
-    // },
   ];
 
   return (

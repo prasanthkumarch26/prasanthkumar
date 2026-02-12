@@ -30,6 +30,11 @@ const About = () => {
               <div className="flex flex-wrap gap-6">
                 <ul className="flex flex-col">
                   <li className="li-triangle">Python</li>
+                  <li className="li-triangle">C/C++</li>
+                  <li className="li-triangle">Javascript ES6+</li>
+                  <li className="li-triangle">Typescript</li>
+                </ul>
+                <ul className="flex flex-col">
                   <li className="li-triangle">Tensorflow</li>
                   <li className="li-triangle">Pandas</li>
                   <li className="li-triangle">Numpy</li>
@@ -38,9 +43,8 @@ const About = () => {
                 </ul>
                 <ul className="flex flex-col">
                   <li className="li-triangle">React.js/Next.js</li>
-                  <li className="li-triangle">Typescript</li>
+                  <li className="li-triangle">FastAPI</li>
                   <li className="li-triangle">Django</li>
-                  <li className="li-triangle">Javascript</li>
                 </ul>
               </div>
             </div>
@@ -50,7 +54,7 @@ const About = () => {
               science. My fascination extends to technology, where I enjoy deep
               dives into everything from the newest phones and laptops to
               intricate computer hardware and operating systems. I also enjoy
-              watching anime, motorsports especially Formula 1 and chess.
+              watching anime, listeing music, motorsports especially Formula 1 and chess.
               {/* I also watch a lot of Animes, Motor Sports(Formula 1), Chess. */}
             </p>
           </div>
