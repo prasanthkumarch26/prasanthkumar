@@ -19,6 +19,9 @@ const robotosans = Roboto({
 export const metadata: Metadata = {
   title: "Prasanth Kumar",
   description: "",
+  verification: {
+    google: "a0PgInxWyu1kiqtAf5sF48b_ttTD4KJUW2iIk9yhu3Q",
+  },
 };
 
 export default function RootLayout({
