@@ -17,8 +17,8 @@ const robotosans = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Prasanth Kumar Chgilipalli",
-  description: "",
+  title: "Prasanth Kumar Chigilipalli",
+  description: "Software Engineer with experience building real-time, modular systems and production-style applications.",
   verification: {
     google: "a0PgInxWyu1kiqtAf5sF48b_ttTD4KJUW2iIk9yhu3Q",
   },
