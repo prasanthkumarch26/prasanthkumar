@@ -15,10 +15,13 @@ const About = () => {
         <div className="w-full max-w-screen-lg flex-col p-6 text-xl flex md:flex-row items-center gap-[40px]">
           <div className="items-center">
             <p className="">
-              I am an Electrical Engineering graduate from IIEST Shibpur, I&apos;m
-              driven to solve real-world problems using{" "}
+              Software Engineer passionate about science and technology, focused
+              on building useful, real-world applications that create meaningful
+              impact. I am an Electrical Engineering graduate from{" "}
+              <span className="text-red-500 font-bold">IIEST Shibpur</span>,
+              I&apos;m driven to solve real-world problems using{" "}
               <span className="text-red-500 font-bold">
-                Machine Learning and Deep Learning
+                Engineering, Data, Machine Learning and Deep Learning
               </span>
               . My passion lies in building large-scale, high-impact products,
               especially where these technologies can address critical
@@ -50,11 +53,12 @@ const About = () => {
             </div>
 
             <p className="mt-6">
-              Outside of work, I&apos;m interested in following the developments of
-              science. My fascination extends to technology, where I enjoy deep
-              dives into everything from the newest phones and laptops to
+              Outside of work, I&apos;m interested in following the developments
+              of science. My fascination extends to technology, where I enjoy
+              deep dives into everything from the newest phones and laptops to
               intricate computer hardware and operating systems. I also enjoy
-              watching anime, listeing music, motorsports especially Formula 1 and chess.
+              watching anime, listeing music, motorsports especially Formula 1
+              and chess.
               {/* I also watch a lot of Animes, Motor Sports(Formula 1), Chess. */}
             </p>
           </div>
