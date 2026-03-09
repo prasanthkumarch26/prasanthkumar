@@ -5,25 +5,25 @@
     "description": "A mobile robot system created as a major project at IIEST Shibpur, utilizing OpenCV, A* algorithm, and Python to enable the robot to navigate complex environments and make informed decisions in real-time.",
     "techStack": "Python, Open CV, A* algorithm, Raspberry Pi",
     "image": "/slam.png",
-    "githubLink": "https://github.com/prasanthkumarch26/SLAM-enabled-Autonomous-Mobile-Robot-System",
+    "githubLink": "https://github.com/prasanthkumarch26/SLAM-Based-Autonomous-Mobile-Robot",
     "liveLink": "https://drive.google.com/file/d/1FDlniOoypnIu1xfcej0JkzB4T7ukxrxd/view?usp=drive_link"
   },
   {
     "id": 2,
-    "title": "Real-Time Hand Gesture Recognition (ISL)",
-    "description": "Built a real-time hand gesture recognition system for 35 Indian Sign Language gestures using live webcam input. Trained on 42,745 images and optimized the inference pipeline to achieve 25 FPS with sub-40 ms latency.",
+    "title": "Real-Time Indian Sign Language Recognition Using Deep Learning",
+    "description": "Developed a CNN-based real-time hand gesture recognition system for 35 Indian Sign Language gestures using TensorFlow. Implemented hand segmentation, image preprocessing, and data augmentation to improve classification accuracy.",
     "techStack": "Python, Open CV, Tensorflow",
     "image": "",
-    "githubLink": "",
+    "githubLink": "https://github.com/prasanthkumarch26/",
     "liveLink": ""
   },
   {
     "id": 3,
-    "title": "Audex - Audio Transcription Telegram Bot",
-    "description": "Developed a Telegram bot that transcribes voice messages using speech_recognition and offers optional text-to-speech with pyttsx3.",
-    "techStack": "Python, Telegram Bot API (telebot), NLP",
+    "title": "Audio Message Transcription System for Voice Messages",
+    "description": "Developed a prototype audio message transcription system that converts voice messages into text using speech recognition. Built with FastAPI, HTML, and Jinja, with the concept and prototype created in 2023 before similar features were introduced in WhatsApp (November 21, 2024).",
+    "techStack": "HTML, Python, FastAPI, Telegram Bot API (telebot for testing), NLP",
     "image": "/audex.png",
-    "githubLink": "",
+    "githubLink": "https://github.com/prasanthkumarch26/",
     "liveLink": ""
   },
   {
