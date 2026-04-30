@@ -17,7 +17,7 @@ const Intro = () => {
       <h2 className="text-2xl md:text-6xl text-[#8892b0]">
         {/* I create stuff sometimes. */}Sometimes I like to build stuff.
       </h2>
-      <p className="text-lg md:text-2xl text-[#8892b0] max-w-screen-sm p-4 mb-10">
+      <p className="text-lg md:text-2xl text-[#8892b0] max-w-screen-sm p-2 mb-10">
         Software engineer by day, driven by a love for engineering in all forms.
         I enjoy working across hardware and software, turning theory into
         real-world applications through creative problem-solving and constant

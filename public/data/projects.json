@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "title": "Reseach Paper-Intelligence",
+    "description": "Built a FastAPI-based backend for large-scale paper ingestion, search, and ranking using PostgreSQL (FTS + GIN) and Redis caching. Achieves sub-200ms p95 latency and supports 100+ papers/sec ingestion with async pipelines and optimized indexing.",
+    "techStack": "FastAPI, PostgreSQL, Redis, asyncio, Docker, Locust",
+    "image": "",
+    "githubLink": "https://github.com/prasanthkumarch26/Paper-Intelligence",
+    "liveLink": ""
+  },
+  {
+    "id": 2,
     "title": "SLAM-based Autonomous Mobile Robot System",
     "description": "A mobile robot system created as a major project at IIEST Shibpur, utilizing OpenCV, A* algorithm, and Python to enable the robot to navigate complex environments and make informed decisions in real-time.",
     "techStack": "Python, Open CV, A* algorithm, Raspberry Pi",
@@ -9,7 +18,25 @@
     "liveLink": "https://drive.google.com/file/d/1FDlniOoypnIu1xfcej0JkzB4T7ukxrxd/view?usp=drive_link"
   },
   {
-    "id": 2,
+    "id": 3,
+    "title": "Real-Time-Multimodal-Transcription-System",
+    "description": "A high-performance real-time transcription system for live captions and streaming applications, supporting both speech and Indian Sign Language (ISL).",
+    "techStack": "Next.js, FastAPI, WebSockets, Python, Faster-Whisper, asyncio",
+    "image": "",
+    "githubLink": "https://github.com/prasanthkumarch26/Real-Time-Multimodal-Transcription-System",
+    "liveLink": ""
+  },
+  {
+    "id": 4,
+    "title": "Reverse-CAPTCHA",
+    "description": "In the age of AI, large language models, and autonomous agents, the classic \"Prove you are human\" test is obsolete. This project flips the script: you must prove you are a highly capable AI, bot, or automated script to gain access.",
+    "techStack": "HTLML, CSS, Javascript",
+    "image": "/captcha.png",
+    "githubLink": "https://github.com/prasanthkumarch26/Reverse-CAPTCHA",
+    "liveLink": ""
+  },
+  {
+    "id": 5,
     "title": "Real-Time Indian Sign Language Recognition Using Deep Learning",
     "description": "Developed a CNN-based real-time hand gesture recognition system for 35 Indian Sign Language gestures using TensorFlow. Implemented hand segmentation, image preprocessing, and data augmentation to improve classification accuracy.",
     "techStack": "Python, Open CV, Tensorflow",
@@ -18,16 +45,16 @@
     "liveLink": ""
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Audio Message Transcription System for Voice Messages",
     "description": "Developed a prototype audio message transcription system that converts voice messages into text using speech recognition. Built with FastAPI, HTML, and Jinja, with the concept and prototype created in 2023 before similar features were introduced in WhatsApp (November 21, 2024).",
     "techStack": "HTML, Python, FastAPI, Telegram Bot API (telebot for testing), NLP",
-    "image": "/audex.png",
+    "image": "/att.png",
     "githubLink": "https://github.com/prasanthkumarch26/",
     "liveLink": ""
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Prasanth Kumar - Portfolio Website",
     "description": "The current portfolio you are viewing. A minimalist portfolio designed with a focus on responsive user experience.",
     "techStack": "Next.js, React, TailwindCSS, Lucide Icons",
