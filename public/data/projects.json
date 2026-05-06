@@ -4,8 +4,8 @@
     "title": "A.X.I.O.M",
     "description": "Built a FastAPI-based backend for large-scale paper ingestion, search, and ranking using PostgreSQL (FTS + GIN) and Redis caching. Achieves sub-200ms p95 latency and supports 100+ papers/sec ingestion with async pipelines and optimized indexing.",
     "techStack": "FastAPI, PostgreSQL, Redis, asyncio, Docker, Locust",
-    "image": "",
-    "githubLink": "https://github.com/prasanthkumarch26/Paper-Intelligence",
+    "image": "/axiom.png",
+    "githubLink": "https://github.com/prasanthkumarch26/A.X.I.O.M",
     "liveLink": ""
   },
   {
