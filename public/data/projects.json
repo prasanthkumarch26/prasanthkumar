@@ -6,7 +6,7 @@
     "techStack": "FastAPI, PostgreSQL, Redis, asyncio, Docker, Locust",
     "image": "/axiom.png",
     "githubLink": "https://github.com/prasanthkumarch26/A.X.I.O.M",
-    "liveLink": ""
+    "liveLink": "https://axiomresearch.vercel.app/"
   },
   {
     "id": 2,
@@ -33,7 +33,7 @@
     "techStack": "HTLML, CSS, Javascript",
     "image": "/captcha.png",
     "githubLink": "https://github.com/prasanthkumarch26/Reverse-CAPTCHA",
-    "liveLink": ""
+    "liveLink": "https://reversecaptcha.ch-prasanth2003.workers.dev/"
   },
   {
     "id": 5,
