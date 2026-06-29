@@ -14,52 +14,56 @@ const About = () => {
         </div>
         <div className="w-full max-w-screen-lg flex-col p-6 text-xl flex md:flex-row items-center gap-[40px]">
           <div className="items-center">
-            <p className="">
-              Software Engineer passionate about science and technology, focused
-              on building useful, real-world applications that create meaningful
-              impact. I am an Electrical Engineering graduate from{" "}
-              <span className="text-red-500 font-bold">IIEST Shibpur</span>,
-              I&apos;m driven to solve real-world problems using{" "}
-              <span className="text-red-500 font-bold">
-                Engineering, Data, Machine Learning and Deep Learning
-              </span>
-              . My passion lies in building large-scale, high-impact products,
-              especially where these technologies can address critical
-              challenges in scientific fields like{" "}
-              <span className="text-red-500 font-bold">AI in Healthcare</span>.
+            <p>
+              I&apos;m a software engineer passionate about understanding how{" "}
+              <span className="text-red-500 font-bold">complex systems</span>{" "}
+              work and turning ideas into practical software.
             </p>
+
+            <p className="mt-4">
+              My work taken me across{" "}
+              <span className="text-red-500 font-bold">
+                distributed systems, information retrieval, real-time
+                applications, machine learning, robotics, and scientific
+                computing
+              </span>
+              . I enjoy learning new concepts, understanding them deeply, and
+              building reliable systems around them.
+            </p>
+
             <div className="mt-6">
-              <p>Here are some technologies I have been working with:</p>
+              <p>Some technologies and areas I frequently work with:</p>
+
               <div className="flex flex-wrap gap-6">
                 <ul className="flex flex-col">
                   <li className="li-triangle">Python</li>
                   <li className="li-triangle">C/C++</li>
-                  <li className="li-triangle">Javascript ES6+</li>
-                  <li className="li-triangle">Typescript</li>
+                  <li className="li-triangle">TypeScript</li>
                 </ul>
+
                 <ul className="flex flex-col">
-                  <li className="li-triangle">Tensorflow</li>
-                  <li className="li-triangle">Pandas</li>
-                  <li className="li-triangle">Numpy</li>
-                  <li className="li-triangle">Scikit-learn</li>
-                  <li className="li-triangle">OpenCV</li>
+                  <li className="li-triangle">Distributed Systems</li>
+                  <li className="li-triangle">Information Retrieval</li>
+                  <li className="li-triangle">Real-Time Applications</li>
                 </ul>
+
                 <ul className="flex flex-col">
-                  <li className="li-triangle">React.js/Next.js</li>
+                  <li className="li-triangle">PostgreSQL</li>
+                  <li className="li-triangle">Redis</li>
                   <li className="li-triangle">FastAPI</li>
-                  <li className="li-triangle">Django</li>
                 </ul>
               </div>
             </div>
 
             <p className="mt-6">
-              Outside of work, I&apos;m interested in following the developments
-              of science. My fascination extends to technology, where I enjoy
-              deep dives into everything from the newest phones and laptops to
-              intricate computer hardware and operating systems. I also enjoy
-              watching anime, listeing music, motorsports especially Formula 1
-              and chess.
-              {/* I also watch a lot of Animes, Motor Sports(Formula 1), Chess. */}
+              Outside of software, I enjoy exploring{" "}
+              <span className="text-red-500 font-bold">
+                science, engineering, and technology
+              </span>
+              , learning about hardware systems, designing circuits, following
+              new developments in consumer tech, and occasionally going down
+              rabbit holes just to understand how things work. I also enjoy
+              anime, Formula 1, chess, music, and learning animation.
             </p>
           </div>
           <div className="p-4 hidden md:flex items-center">
